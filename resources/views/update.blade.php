@@ -1,6 +1,13 @@
 
 @extends('layout')
 
+
+@section('page-title')
+
+<h1>Update Todo</h1>
+
+@stop
+
 @section('content')
 
 <div class="row">

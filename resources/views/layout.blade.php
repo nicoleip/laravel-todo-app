@@ -66,7 +66,7 @@
         </style>
     </head>
     <body>
-
+`   
     @if(Session::has('success'))
     <div class="alert alert-success" role="alert">
 
@@ -76,7 +76,8 @@
     @endif
         <div class="flex-center position-ref full-height">
 
-            <div class="content">
+            <div class="content title m-b-md">
+                   @yield('page-title')
                 <div class="title m-b-md">
                    @yield('content')
                 </div>
